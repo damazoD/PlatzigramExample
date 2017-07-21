@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="et_login">20dp</dimen>
+    <dimen name="padding_horizontal_scrollview">32dp</dimen>
+    <dimen name="dont_have_account">16sp</dimen>
+    <dimen name="edit_text_margin_create_acount">10dp</dimen>
+    <dimen name="height_cardview">200dp</dimen>
+    <dimen name="cornerradius_cardview">4dp</dimen>
+    <dimen name="firstword_cad">15sp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+
+    <dimen name="size_10">10dp</dimen>
+    <dimen name="size_15">15dp</dimen>
+    <dimen name="size_20">20dp</dimen>
+    <dimen name="size_25">25dp</dimen>
+
+    <dimen name="textsize_10">10sp</dimen>
+    <dimen name="textsize_15">15sp</dimen>
+    <dimen name="textsize_20">20sp</dimen>
+    <dimen name="textsize_25">25sp</dimen>
+
+</resources>

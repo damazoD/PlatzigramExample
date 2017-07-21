@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="RaisedButtonDark" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    <style name="EditTextWhite" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="android:textColorHighlight">@color/colorWhite</item>
+        <item name="android:textColorLink">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/et_login</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorWhite</item>
+        <item name="colorControlActivated">@color/colorWhite</item>
+    </style>
+
+    <style name="EditTextBlack" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/colorBlack</item>
+        <item name="android:textColorHighlight">@color/colorBlack</item>
+        <item name="android:textColorLink">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/et_login</item>
+        <item name="android:textColorPrimary">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorBlack</item>
+        <item name="colorControlActivated">@color/colorBlack</item>
+    </style>
+
+    <style name="profileSimpleViewBehavior">
+        <item name="android:layout_gravity">center|top</item>
+        <item name="layout_behavior">com.zoonref.SimpleViewBehavior</item>
+        <item name="dependsOn">@+id/app_bar</item>
+        <item name="dependType">y</item>
+        <item name="dependTargetY">-206dp</item>
+    </style>
+</resources>
